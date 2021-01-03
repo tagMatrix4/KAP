@@ -22,8 +22,11 @@ bash build.sh
 ```
 
 ## run
+```
+需要代理, 但是还是提示缺少文件, 没有继续折腾
 go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
+```
 
 # go build xxx.go
 
